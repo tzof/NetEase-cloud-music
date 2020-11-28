@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100vw;
+    /* background-color: red; */
+    /* position: fixed; */
+    background-color: #fff;
+    padding: 0.61vh 2.46vh 0.61vh 2.46vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 10; */
+}
+header span{
+    font-size: 1.72vh;
+    color: black;
+    font-weight: bold;
+}
+header div img{
+    width: 2.21vh;
+    margin-left: 0.18vh;
+}
+header div img:nth-child(3){
+    width: 2.46vh;
+}
+.top-nav{
+    height: auto;
+    /* position: fixed; */
+    /* top: 7.74vw;
+    left: 0; */
+    /* z-index: 10; */
+}
+.head{
+    width: 100vw;
+    height: 4.92vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.22vh 0 2.44vh;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.head>div:first-of-type a img{
+    width: 1.59vh;
+}
+.head>div:nth-child(2) span{
+    font-size: 1.97vh;
+    color: #333;
+}
+.head>div:nth-child(3) a img{
+    width: 3.69vh;
+}
+nav ul{
+    height: 5.29vh;
+    display: flex;
+    /* margin-top: 2.66vw; */
+    padding: 0 3.69vh 0 3.07vh;
+    box-sizing: border-box;
+    margin-top: 1.23vh;
+}
+nav ul li{
+    height: 3.696vh;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    font-size: 1.72vh;
+    color: #333;
+}
+nav ul li:first-of-type a{
+    color: red;
+}
+nav ul li:first-of-type{
+    border-bottom: .37vh solid red;
+}
+nav ul li:hover a{
+    color: red;
+    font-size: 1.72vh;
+}
+nav ul li:hover{
+    border-bottom: .37vh solid red;
+}
+nav ul:hover li:first-of-type a{
+    color: #333;
+}
+nav ul:hover li:first-of-type{
+    border: none;
+}
+nav ul li:first-of-type:hover a{
+    color: red;
+    font-size: 1.72vh;
+}
+nav ul li:first-of-type:hover{
+    border-bottom: .37vh solid red;
+}
+
+main .top{
+    padding-left: 1.84vh;
+    box-sizing: border-box;
+    margin-top: 1.84vh;
+    display: flex;
+    flex-direction: column;
+}
+.top>div:nth-of-type(1){
+    margin-bottom: 2.46vh;
+}
+.top div a{
+    display: flex;
+    align-items: center;
+}
+.top div a img{
+    width: 8.62vh;
+}
+.top div a p{
+    font-size: 2.21vh;
+    color: #333;
+    margin-left: 1.23vh;
+}
+
+main .bottom{
+    padding: 0 1.84vh;
+    box-sizing: border-box;
+    margin-top: 3.07vh;
+}
+.bottom>p{
+    font-size: 1.97vh;
+    color: #333;
+    margin-bottom: 1.84vh;
+}
+.bottom ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom ul li{
+    width: 12.19vh;
+    /* flex-basis: 33%; */
+}
+.bottom ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom ul li a img{
+    width: 12.19vh;
+}
+.bottom ul li a p{
+    font-size: 1.47vh;
+    color: #333;
+    margin-bottom: 1.84vh;
+}

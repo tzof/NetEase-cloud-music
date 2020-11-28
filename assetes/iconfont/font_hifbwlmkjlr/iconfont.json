@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16372305",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    }
+  ]
+}

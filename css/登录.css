@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: auto;
+    font-size: 10px;
+    background: #DB2D22;
+}
+header{
+    width: 100vw;
+    /* background-color: red; */
+    padding: 0.61vh 4.92vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header span{
+    font-size: 1.72vh;
+    color: white;
+    font-weight: bold;
+}
+header div img{
+    width: 2.21vh;
+    margin-left: 0.185vh;
+}
+header div img:nth-child(3){
+    width: 2.46vh;
+}
+main .logo{
+    margin-top: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .logo div:first-child{
+    width: 2.7vh;
+    height: 2.7vh;
+    border: .1rem solid #ffffff77;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 3.07vh;
+    line-height: 3.2vh;
+}
+main .logo span{
+    font-size: 2.21vh;
+    color: #fff;
+    /* font-weight: lighter; */
+}
+main .logo div img{
+    width: 1.48vh;
+}
+main .login{
+    margin-top: 6.77vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .login p:first-of-type{
+    font-size: 2.46vh;
+    color: #fff;
+}
+main .login p:nth-of-type(2){
+    font-size: 1.47vh;
+    color: #ffffff6b;
+    padding: 0.61vh 0;
+}
+main .login a input:first-of-type{
+    width: 34.4vh;
+    height: 4.31vh;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 5rem;
+    margin-bottom: 2.46vh;
+    padding-top: 0.59vh;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+main .login>input:first-of-type{
+    width: 34.4vh;
+    height: 4.31vh;
+    outline: none;
+    border: 1px solid #fff;
+    background-color: #DB2D22;
+    border-radius: 50px;
+    padding-top: 0.59vh;
+    box-sizing: border-box;
+}
+main .login a input:first-of-type::-webkit-input-placeholder{
+    color: #FF0000;
+    font-size: 1.97vh;
+    text-align: center;
+}
+main .login>input:first-of-type::-webkit-input-placeholder{
+    color: #fff;
+    font-size: 1.97vh;
+    text-align: center;
+}
+main .agreement{
+    margin-top: 3.7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* position: relative; */
+    /* left: -1.84vh; */
+}
+main .agreement input{
+}
+main .agreement label{
+    color: #ffffff47;
+    font-size: 1.6vh;
+    line-height: 1.8vh;
+    margin-left: 0.37vh;
+}
+main .agreement div{
+    margin-left: 1.23vh;
+}
+main .agreement div p{
+    font-size: 1.47vh;
+    color: #fff;
+}
+footer{
+    margin-top: 34.4vh;
+    display: flex;
+    justify-content: space-around;
+}
+footer div{
+    width: 4.92vh;
+    height: 4.92vh;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div:last-of-type{
+    width: 19vh;
+    border-radius: 4rem;
+}
+footer div:last-of-type a{
+    color: #333;
+    font-size: 1.7vh;
+}
+footer div:first-of-type a img{
+    position: relative;
+    top: 0.35vh;
+}
+footer div:nth-of-type(2) a img{
+    position: relative;
+    top: 0.2vh;
+}
+footer div:nth-of-type(3) a img{
+    position: relative;
+    top: 0.35vh;
+}
+footer div:last-of-type{
+    padding-top: 0.5vh;
+    box-sizing: border-box;
+}
+footer div a img{
+    width: 3.08vh;
+}
+footer div:nth-child(4) a img{
+    width: 1.85vh;
+}

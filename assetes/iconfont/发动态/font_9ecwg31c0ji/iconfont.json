@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "654295",
+      "name": "笑脸",
+      "font_class": "xiaolian",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}

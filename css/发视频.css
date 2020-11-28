@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100vw;
+    /* background-color: red; */
+    position: fixed;
+    background-color: #fff;
+    padding: 1.32vw 5.32vw 1.32vw 5.32vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header span{
+    font-size: 3.72vw;
+    color: black;
+    font-weight: bold;
+}
+header div img{
+    width: 4.8vw;
+    margin-left: 0.39vw;
+}
+header div img:nth-child(3){
+    width: 5.32vw;
+}
+.top-nav{
+    height: auto;
+    position: fixed;
+    top: 7.74vw;
+    left: 0;
+    z-index: 10;
+}
+.head{
+    width: 100vw;
+    height: 10.65vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 5.32vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    /* border-bottom: .1rem solid #f2f2f2; */
+}
+.head>div:first-of-type a span{
+    font-size: 3.72vw;
+    color: #333;
+    /* margin-left: 3.07vh; */
+}
+.head>div:nth-child(2) span{
+    font-size: 4.26vw;
+    color: #333;
+    vertical-align: middle;
+}
+.head>div:nth-child(2) img{
+    width: 3.2vw;
+    vertical-align: middle;
+}
+.head>div:nth-child(3) a span{
+    font-size: 3.72vw;
+    color: #333;
+}
+main{
+    margin-top: 21.35vw;
+}
+main ul{
+    padding: 0 2.66vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main ul a{
+    width: 30.4vw;
+    height: 32.26vw;
+    margin-bottom: 1.33vw;
+}
+main ul a li{
+    width: 30.4vw;
+    height: 32.26vw;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+main ul a li>div{
+    width: 30.4vw;
+    height: 5.6vw;
+    background-color: #0000005e;
+    padding: 0 1.33vw 0 2.66vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main ul a li>div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main ul a li>div div img{
+    transform: rotate(90deg);
+    width: 4vw;
+}
+main ul a li>div>span{
+    font-size: 3.2vw;
+    color: white;
+}
+main ul a:nth-of-type(1) li,
+main ul a:nth-of-type(16) li{
+    background-image: url(../assetes/image/发视频/视频1.jpeg);
+}
+main ul a:nth-of-type(2) li,
+main ul a:nth-of-type(13) li,
+main ul a:nth-of-type(22) li{
+    background-image: url(../assetes/image/发视频/视频2.jpeg);
+}
+main ul a:nth-of-type(3) li,
+main ul a:nth-of-type(15) li{
+    background-image: url(../assetes/image/发视频/视频3.jpeg);
+}
+main ul a:nth-of-type(4) li,
+main ul a:nth-of-type(20) li{
+    background-image: url(../assetes/image/发视频/视频4.jpeg);
+}
+main ul a:nth-of-type(5) li,
+main ul a:nth-of-type(11) li{
+    background-image: url(../assetes/image/发视频/视频5.jpeg);
+}
+main ul a:nth-of-type(6) li,
+main ul a:nth-of-type(18) li,
+main ul a:nth-of-type(23) li{
+    background-image: url(../assetes/image/发视频/视频6.jpeg);
+}
+main ul a:nth-of-type(7) li,
+main ul a:nth-of-type(19) li{
+    background-image: url(../assetes/image/发视频/视频7.jpeg);
+}
+main ul a:nth-of-type(8) li,
+main ul a:nth-of-type(17) li,
+main ul a:nth-of-type(24) li{
+    background-image: url(../assetes/image/发视频/视频8.jpeg);
+}
+main ul a:nth-of-type(9) li,
+main ul a:nth-of-type(12) li{
+    background-image: url(../assetes/image/发视频/视频9.jpeg);
+}
+main ul a:nth-of-type(10) li,
+main ul a:nth-of-type(14) li,
+main ul a:nth-of-type(21) li{
+    background-image: url(../assetes/image/发视频/视频10.jpeg);
+}

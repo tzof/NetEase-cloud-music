@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13606911",
+      "name": "优惠卷",
+      "font_class": "youhuijuan",
+      "unicode": "e7ad",
+      "unicode_decimal": 59309
+    }
+  ]
+}

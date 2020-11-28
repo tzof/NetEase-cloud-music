@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100vw;
+    /* background-color: red; */
+    position: fixed;
+    background-color: #fff;
+    padding: 1.32vw 5.33vw 1.32vw 5.3vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header span{
+    font-size: 3.7vw;
+    color: black;
+    font-weight: bold;
+}
+header div img{
+    width: 4.8vw;
+    margin-left: 0.4vw;
+}
+header div img:nth-child(3){
+    width: 5.33vw;
+}
+.top-nav{
+    height: auto;
+    position: fixed;
+    top: 7.74vw;
+    left: 0;
+    z-index: 10;
+}
+.head{
+    width: 100vw;
+    height: 10.67vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.66vw 0 5.3vw;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.head>div:first-of-type a img{
+    width: 3.46vw;
+}
+.head>div:nth-child(2) span{
+    font-size: 4.26vw;
+    color: #333;
+}
+.head>div:nth-child(3) a img{
+    width: 8vw;
+}
+nav{
+    /* flex-grow: 1; */
+}
+nav ul{
+    /* height: 10.66vw; */
+    display: flex;
+    /* margin-top: 2.66vw; */
+    /* padding: 0 1.33vw; */
+    box-sizing: border-box;
+}
+nav ul li{
+    width: 11.46vw;
+    height: 6vw;
+    flex-grow: 1;
+    text-align: center;
+}
+nav ul li:nth-of-type(2){
+    margin: 0 5.33vw;
+}
+nav ul li:nth-of-type(3){
+    margin-right: 5.33vw;
+}
+nav ul li a{
+    font-size: 3.7vw;
+    color: #333;
+}
+nav ul li:first-of-type a{
+    color: red;
+}
+nav ul li:first-of-type{
+    border-bottom: .6vw solid red;
+}
+nav ul li:hover a{
+    color: red;
+    font-size: 3.46vw;
+}
+nav ul li:hover{
+    border-bottom: .6vw solid red;
+}
+nav ul:hover li:first-of-type a{
+    color: #333;
+}
+nav ul:hover li:first-of-type{
+    border: none;
+}
+nav ul li:first-of-type:hover a{
+    color: red;
+    font-size: 3.46vw;
+}
+nav ul li:first-of-type:hover{
+    border-bottom: .6vw solid red;
+}
+.nav-img{
+    width: 100vw;
+    background-color: white;
+    padding: 1.33vw 6.66vw 1.33vw 8vw;
+    box-sizing: border-box;
+    position: relative;
+    top: -0.8vw;
+}
+.nav-img ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-img ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-img ul li a div{
+    width: 10.13vw;
+    height: 10.13vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-img ul li:nth-of-type(1) a div{
+    background-color: #FEE4E5;
+}
+.nav-img ul li:nth-of-type(1) a div i{
+    font-size: 5.33vw;
+    color: #EC3D72;
+}
+.nav-img ul li:nth-of-type(2) a div{
+    background-color: #FFE7F7;
+}
+.nav-img ul li:nth-of-type(2) a img{
+    height: 6.6vw;
+}
+.nav-img ul li:nth-of-type(3) a div{
+    background-color: #FEE4E5;
+}
+.nav-img ul li:nth-of-type(3) a div i{
+    font-size: 6.67vw;
+    color: #FD7575;
+}
+.nav-img ul li:nth-of-type(4) a div{
+    background-color: #DCF3FC;
+}
+.nav-img ul li:nth-of-type(4) a img{
+    width: 6.6vw;
+}
+.nav-img ul li:nth-of-type(5) a div{
+    background-color: #F6F4F5;
+}
+.nav-img ul li:nth-of-type(5) a img{
+    width: 5.6vw;
+}
+.nav-img ul li a p{
+    margin-top: 4vw;
+    color: #333;
+    font-size: 3.2vw;
+}
+main{
+    margin-top: calc(20.53vw + 21.33vw);
+    width: 100vw;
+    padding: 0 2.66vw 0 5.3vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+main>div:nth-of-type(odd){
+    margin-right: 2.66vw;
+}
+main>div{
+    flex-basis: calc(50% - 2.66vw);
+    width: 45.6vw;
+    height: 56vw;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 2.66vw;
+    position: relative;
+}
+main>div div{
+    width: calc(45.6vw - 2.4vw);
+    height: 56vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0000005e;
+}
+main>div:nth-of-type(1),
+main>div:nth-of-type(7){
+    background-image: url(../assetes/image/直播/直播1.png);
+}
+main>div:nth-of-type(2),
+main>div:nth-of-type(8){
+    background-image: url(../assetes/image/直播/直播2.png);
+}
+main>div:nth-of-type(3),
+main>div:nth-of-type(9){
+    background-image: url(../assetes/image/直播/直播3.png);
+}
+main>div:nth-of-type(4),
+main>div:nth-of-type(10){
+    background-image: url(../assetes/image/直播/直播4.png);
+}
+main>div:nth-of-type(5),
+main>div:nth-of-type(11){
+    background-image: url(../assetes/image/直播/直播5.png);
+}
+main>div:nth-of-type(6),
+main>div:nth-of-type(12){
+    background-image: url(../assetes/image/直播/直播6.png);
+}
+main>div>div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+main>div>div span:nth-of-type(1){
+    font-size: 3.2vw;
+    color: white;
+}
+main>div>div span:nth-of-type(2){
+    font-size: 4.8vw;
+    color: white;
+    font-weight: bold;
+}
+.load{
+    width: 100vw;
+    height: 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 23.96vw; */
+}
+.load img{
+    width: 5.33vw;
+    vertical-align: middle;
+    margin-right: 2.66vw;
+}
+.load span{
+    vertical-align: middle;
+    font-size: 3.2vw;
+    color: #999;
+}

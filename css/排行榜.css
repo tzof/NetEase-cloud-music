@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100vw;
+    /* background-color: red; */
+    position: fixed;
+    background-color: #fff;
+    padding: 1.32vw 5.33vw 1.32vw 8vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header span{
+    font-size: 3.7vw;
+    color: black;
+    font-weight: bold;
+}
+header div img{
+    width: 4.8vw;
+    margin-left: 0.4vw;
+}
+header div img:nth-child(3){
+    width: 5.33vw;
+}
+.head{
+    width: 100vw;
+    height: 10.67vw;
+    background-color: #fff;
+    position: fixed;
+    top: 7.74vw;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.66vw 0 8vw;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.head>div:first-of-type a img{
+    width: 3.46vw;
+}
+.head>div:nth-child(2) span{
+    font-size: 4.26vw;
+    color: #333;
+}
+.head>div:nth-child(3) a img{
+    width: 8vw;
+}
+main{
+    margin-top: 21.35vw;
+}
+main .hot{
+    padding: 0 1.33vw 0 2.13vw;
+}
+main h1{
+    font-size: 4.26vw;
+    color: #333;
+    font-weight: normal;
+    margin-left: 2.6vw;
+}
+/* main .hot h1{
+    margin-left: 2.6vw;
+} */
+main .hot ul{
+    margin-top: 2.66vw;
+    display: flex;
+    justify-content: space-between;
+}
+main .hot ul li a div{
+    width: 30.13vw;
+    height: 38.93vw;
+    color: white;
+    border-radius: .5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .hot ul li a div p:last-child{
+    position: absolute;
+    top: 32.5vw;
+    left: 2.66vw;
+}
+main .hot ul li:nth-child(1) a div{
+    background: linear-gradient(140deg, rgba(204, 153, 255, 1) 0%, rgba(204, 153, 255, 1) 0%, rgba(254, 2, 25, 1) 100%, rgba(254, 2, 25, 1) 100%);
+}
+main .hot ul li:nth-child(2) a div{
+    background: linear-gradient(140deg, rgba(213, 44, 61, 1) 0%, rgba(213, 44, 61, 1) 0%, rgba(242, 231, 131, 1) 100%, rgba(242, 231, 131, 1) 100%);
+}
+main .hot ul li:nth-child(3) a div{
+    background: linear-gradient(140deg, rgba(9, 110, 53, 1) 0%, rgba(9, 110, 53, 1) 0%, rgba(51, 204, 0, 1) 100%, rgba(51, 204, 0, 1) 100%);
+}
+main .hot ul li a div p:nth-child(1){
+    font-size: 5.33vw;
+}
+main .hot ul li:nth-child(1) a div p:nth-child(2){
+    font-size: 5.33vw;
+}
+main .hot ul li a div p:last-child{
+    font-size: 3.2vw;
+}
+main .hot ul li a>p{
+    font-size: 3.73vw;
+    color: black;
+    margin-top: 1.33vw;
+}
+main .gm{
+    margin-top: 8vw;
+    padding-left: 4vw;
+}
+main .gm ul{
+    margin-top: 2.66vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+main .gm ul li div{
+    width: 33.6vw;
+    height: 38.1vw;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+main .gm ul li div p:last-child{
+    position: absolute;
+    top: 32.5vw;
+    left: 2.66vw;
+    font-size: 3.2vw;
+}
+main .gm ul li{
+    display: flex;
+    margin-bottom: 9.33vw;
+}
+main .gm ul li:last-child{
+    margin: 0;
+}
+main .gm ul li:first-of-type div{
+    background: linear-gradient(rgb(111, 160, 219) 0%, rgb(111, 160, 219) 0%, rgb(133, 158, 234) 100%, rgb(133, 158, 234) 100%);
+}
+main .gm ul li:nth-child(2) div{
+    background: linear-gradient(170deg, rgb(153, 204, 255) 0%, rgb(153, 204, 255) 0%, rgb(93, 191, 197) 100%, rgb(93, 191, 197) 100%);
+}
+main .gm ul li:nth-child(3) div{
+    background: linear-gradient(170deg, rgb(178, 82, 68) 0%, rgb(178, 82, 68) 0%, rgb(200, 133, 99) 100%, rgb(200, 133, 99) 100%);
+}
+main .gm ul li:nth-child(4) div{
+    background: linear-gradient(170deg, rgb(199, 71, 109) 0%, rgb(199, 71, 109) 0%, rgb(204, 102, 255) 100%, rgb(204, 102, 255) 100%);
+}
+main .gm ul li div p:nth-child(1){
+    font-size: 5.33vw;
+}
+main .gm ul li section{
+    margin-top: 2.66vw;
+    margin-left: 4vw;
+}
+main .gm ul li section p{
+    margin-bottom: 4.53vw;
+}
+main .gm ul li section p:last-child{
+    margin: 0;
+}
+main .gm ul li section p a{
+    font-size: 4.26vw;
+    color: #666;
+}
+main .more{
+    margin-top: 8vw;
+    padding: 0 2.66vw 0 4vw;
+    margin-bottom: 28vw;
+}
+main .more ul{
+    display: flex;
+    justify-content: space-between;
+}
+main .more ul:first-of-type{
+    margin-top: 2.66vw;
+    margin-bottom: 4vw;
+}
+main .more ul li a div{
+    width: 28.5vw;
+    height: 36vw;
+    color: white;
+    font-size: 5.33vw;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .more ul:nth-of-type(1) li:nth-of-type(1) a div{
+    background-color: rgba(189, 86, 82, 1);
+}
+main .more ul:nth-of-type(1) li:nth-of-type(2) a div{
+    background-color: rgba(126, 75, 180, 1);
+}
+main .more ul:nth-of-type(1) li:nth-of-type(3) a div{
+    background-color: rgba(144, 61, 107, 1);
+}
+main .more ul:nth-of-type(2) li:nth-of-type(1) a div{
+    background-color: rgba(91, 174, 116, 1);
+}
+main .more ul:nth-of-type(2) li:nth-of-type(2) a div{
+    background-color: rgba(78, 41, 48, 1);
+}
+main .more ul:nth-of-type(2) li:nth-of-type(3) a div{
+    background-color: rgba(255, 247, 123, 1);
+    color: #A145AE;
+}
+main .more ul li a>p{
+    font-size: 3.73vw;
+    color: black;
+    margin-top: 1.33vw;
+}
+main .more ul li{
+    text-align: center;
+}

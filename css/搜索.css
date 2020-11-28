@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background: #ffffff;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100vw;
+    /* background-color: red; */
+    background-color: #fff;
+    padding: 0.61vh 2.46vh 0.61vh 2.46vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header span{
+    font-size: 1.7vh;
+    color: black;
+    font-weight: bold;
+}
+header div img{
+    width: 2.21vh;
+    margin-left: 0.185vh;
+}
+header div img:nth-child(3){
+    width: 2.46vh;
+}
+.head{
+    width: 100vw;
+    height: 4.55vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.46vh 0 1.23vh;
+    box-sizing: border-box;
+    position: relative;
+}
+.head i{
+    font-size: 1.6vh;
+    color: #999;
+    position: absolute;
+    top: calc(4.55vh / 2 - 1.6vh / 2);
+    left: 6.76vh;
+    font-weight: bold;
+}
+.head div input{
+    width: 32vh;
+    height: 3.07vh;
+    border: none;
+    outline: none;
+    border-radius: 4rem;
+    background-color: #F2F2F2;
+    padding-left: 9.85vh;
+    padding-top: 0.18vh;
+    box-sizing: border-box;
+    color: #999999;
+    font-size: 1.6vh;
+}
+.head div input::-webkit-input-placeholder{
+    color: #999999;
+    font-size: 1.6vh;
+}
+.head span{
+    font-size: 1.72vh;
+    color: #333;
+}
+.head div img{
+    width: 2.34vh;
+}
+main{
+    padding: 0 0 0 1.84vh;
+    box-sizing: border-box;
+    margin-top: 1.84vh;
+}
+main h1{
+    font-weight: normal;
+    font-size: 1.72vh;
+    color: #333;
+}
+main ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.23vh;
+}
+main ul li{
+    flex-basis: 50%;
+}
+main ul li a p:first-child{
+    display: flex;
+    color: #333;
+    font-size: 1.72vh;
+}
+main ul li a p:nth-child(2){
+    color: #999;
+    font-size: 1.47vh;
+    text-indent: .5em;
+    margin-top: 1.23vh;
+    margin-bottom: 3.08vh;
+}
+main ul li a p:nth-child(1) span:first-of-type::first-letter{
+    color: red;
+}
+main ul li a p:nth-child(1) span:nth-child(2){
+    color: red;
+    margin-left: 3.3vh;
+}
+main ul li:nth-child(3) p:nth-child(1) span:nth-child(2){
+    margin-left: calc(3vh + 1em);
+}
+main ul li:nth-child(4) p:nth-child(1) span:nth-child(2){
+    margin-left: calc(3.3vh + 2em);
+}

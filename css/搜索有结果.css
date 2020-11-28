@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    /* background-color: red; */
+    background-color: #fff;
+    padding: 1.32vw 5.33vw 1.32vw 5.3vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header span{
+    font-size: 3.7vw;
+    color: black;
+    font-weight: bold;
+}
+header div img{
+    width: 4.8vw;
+    margin-left: 0.4vw;
+}
+header div img:nth-child(3){
+    width: 5.33vw;
+}
+.head{
+    width: calc(100vw - 8vw - 5.33vw);
+    position: fixed;
+    top: 7.74vw;
+    left: 0;
+    height: 9.86vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8vw 0 5.33vw;
+    z-index: 10;
+}
+.head div:first-of-type a img{
+    width: 3.46vw;
+}
+.head div:nth-child(2){
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.head div:nth-child(2) i{
+    font-size: 3.46vw;
+    color: #999;
+    font-weight: bold;
+    position: absolute;
+    top: calc(6.66vw / 2 - 3.46vw / 2);
+    left: 13.33vw;
+}
+.head div:nth-child(2) a img{
+    width: 4vw;
+    position: absolute;
+    top: calc(6.66vw / 2 - 4vw / 2);
+    right: 5.33vw;
+}
+.head div input{
+    border: none;
+    outline: none;
+    background-color: #F2F2F2;
+    width: 72vw;
+    height: 6.66vw;
+    border-radius: 4rem;
+    padding-left: 29.33vw;
+    padding-top: 0.4vw;
+    box-sizing: border-box;
+    color: #999;
+    font-size: 3.46vw;
+}
+.head div input::-webkit-input-placeholder{
+    color: #999;
+    font-size: 3.46vw;
+}
+nav ul{
+    height: 10.66vw;
+    display: flex;
+    /* margin-top: 2.66vw; */
+    margin-top: 20.53vw;
+    padding: 0 1.33vw;
+    box-sizing: border-box;
+}
+nav ul li{
+    height: 8vw;
+    flex-grow: 1;
+    text-align: center;
+}
+nav ul li a{
+    font-size: 3.7vw;
+    color: #333;
+}
+nav ul li:first-of-type a{
+    color: red;
+}
+nav ul li:first-of-type{
+    border-bottom: .8vw solid red;
+}
+nav ul li:hover a{
+    color: red;
+    font-size: 3.46vw;
+}
+nav ul li:hover{
+    border-bottom: .8vw solid red;
+}
+nav ul:hover li:first-of-type a{
+    color: #333;
+}
+nav ul:hover li:first-of-type{
+    border: none;
+}
+nav ul li:first-of-type:hover a{
+    color: red;
+    font-size: 3.46vw;
+}
+nav ul li:first-of-type:hover{
+    border-bottom: .8vw solid red;
+}
+main .top{
+    margin-top: 2.66vw;
+    padding: 0 5.33vw 0 4vw;
+}
+main .top .top-ct{
+    margin-top: 0.8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .top .top-ct>div{
+    display: flex;
+}
+main .top .top-ct div div{
+    padding: 0.26vw 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2.66vw;
+}
+main .top>p:first-of-type{
+    font-size: 3.73vw;
+    color: #333;
+}
+main .top .top-ct div img{
+    width: 12.8vw;
+}
+main .top .top-ct div div p:first-of-type{
+    font-size: 3.73vw;
+    color: #333;
+}
+main .top .top-ct div div p:nth-child(2){
+    font-size: 3.2vw;
+    color: #333;
+}
+main .top .top-ct>p{
+    font-size: 3.73vw;
+    color: #333;
+}
+main .cloud{
+    width: 61.3vw;
+    height: 7.46vw;
+    margin: 0 auto;
+    margin-top: 1.3vw;
+    border-radius: 1.5rem;
+    background-color: #F2F2F2;
+    text-align: center;
+    line-height: 7.46vw;
+}
+main .cloud a{
+    font-size: 3.46vw;
+    color: #333;
+}
+main section{
+    margin-top: 4vw;
+    padding: 0 4vw 0 4vw;
+    box-sizing: border-box;
+}
+main section>p{
+    font-size: 4.26vw;
+    color: black;
+}
+main section .horn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.66vw;
+}
+main section .horn>div:first-of-type{
+    display: flex;
+    align-items: center;
+}
+main section .horn>div:first-of-type div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.3vw;
+}
+main section .horn>div:first-of-type div:nth-of-type(2) p:nth-of-type(2){
+    display: flex;
+    margin-top: 1.33vw;
+}
+main section .horn>div:first-of-type div img{
+    width: 4vw;
+}
+main section .horn>div:first-of-type div:nth-of-type(2) p:nth-of-type(1){
+    font-size: 3.73vw;
+    color: #333;
+}
+main section .horn>div:first-of-type div:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(1),
+main section .horn>div:first-of-type div:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(2){
+    width: 9.3vw;
+    height: 4vw;
+    border: .1rem solid red;
+    border-radius: .5rem;
+    text-align: center;
+    line-height: 4vw;
+    color: red;
+    font-size: 3.2vw;
+    margin-right: 1.33vw;
+}
+main section .horn>div:first-of-type div:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(3){
+    font-size: 3.2vw;
+    color: #333;
+    margin-left: 1.33vw;
+}
+main section .horn>div:nth-of-type(2) img:nth-of-type(1){
+    width: 5.33vw;
+    margin-right: 6.66vw;
+    position: relative;
+    top: 1.46vw;
+}
+main section .horn>div:nth-of-type(2) img:nth-of-type(2){
+    width: 4vw;
+    transform: rotate(90deg);
+}
+main section .song{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6.66vw;
+}
+main section .song>div:first-of-type div{
+    display: flex;
+    flex-direction: column;
+}
+main section .song>div:first-of-type div p:nth-of-type(2){
+    display: flex;
+    margin-top: 1.33vw;
+}
+main section .song>div:nth-of-type(2) img:nth-of-type(1){
+    width: 5.33vw;
+    margin-right: 6.66vw;
+    position: relative;
+    top: 1.46vw;
+}
+main section .song>div:nth-of-type(2) img:nth-of-type(2){
+    width: 4vw;
+    transform: rotate(90deg);
+}
+main section .song>div:first-of-type div p:nth-of-type(1){
+    font-size: 3.73vw;
+    color: #333;
+}
+main section .song>div:first-of-type div p:nth-of-type(2) span:nth-of-type(1){
+    width: 9.3vw;
+    height: 4vw;
+    border: .1rem solid red;
+    border-radius: .5rem;
+    text-align: center;
+    line-height: 4vw;
+    color: red;
+    font-size: 3.2vw;
+    margin-right: 1.33vw;
+}
+main section .song>div:first-of-type div p:nth-of-type(2) span:nth-of-type(2){
+    font-size: 3.2vw;
+    color: #333;
+    margin-left: 1.33vw;
+}
+.load{
+    width: 100vw;
+    height: 41.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.load img{
+    width: 5.33vw;
+    vertical-align: middle;
+    margin-right: 2.66vw;
+}
+.load span{
+    vertical-align: middle;
+    font-size: 3.2vw;
+    color: #999;
+}

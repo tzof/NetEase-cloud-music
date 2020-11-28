@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background: #000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100vw;
+    /* background-color: red; */
+    position: fixed;
+    background-color: #000;
+    padding: 1.32vw 5.33vw 1.32vw 5.3vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header span{
+    font-size: 3.7vw;
+    color: white;
+    font-weight: bold;
+}
+header div img{
+    width: 4.8vw;
+    margin-left: 0.4vw;
+}
+header div img:nth-child(3){
+    width: 5.33vw;
+}
+.head{
+    width: 100vw;
+    margin-top: 8vw;
+    position: relative;
+    top: -0.26vw;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2.66vw;
+    box-sizing: border-box;
+}
+.head>div:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head>div:nth-of-type(1)>div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+}
+.head>div:nth-of-type(1)>div:nth-of-type(1) div{
+    margin-left: 1.33vw;
+}
+.head>div:nth-of-type(1)>div:nth-of-type(1) div p:nth-of-type(1){
+    margin-bottom: 1.33vw;
+}
+.head>div:nth-of-type(1)>div:nth-of-type(1) div p:nth-of-type(2) span:nth-of-type(1){
+    margin-right: 2.66vw;
+}
+.head>div:nth-of-type(2) ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10.67vw;
+    margin-bottom: 6.66vw;
+}
+.head>div:nth-of-type(2) ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head>div:nth-of-type(2) ul li a p{
+    margin-top: 2.66vw;
+}
+.head>div:nth-of-type(1)>div:nth-of-type(1) img{
+    width: 13.3vw;
+    height: 13.3vw;
+}
+.head>div:nth-of-type(1)>div:nth-of-type(1) div p:nth-of-type(1){
+    font-size: 3.73vw;
+    color: #fff;
+}
+.head>div:nth-of-type(1)>div:nth-of-type(1) div p:nth-of-type(2) span:nth-of-type(1){
+    display: inline-block;
+    width: 8.8vw;
+    height: 4.26vw;
+    background-color: #999999;
+    font-size: 3.2vw;
+    color: #ffffff54;
+    text-align: center;
+    line-height: 4.26vw;
+    border-radius: 2rem;
+}
+.head>div:nth-of-type(1)>div:nth-of-type(1) div p:nth-of-type(2) span:nth-of-type(2){
+    display: inline-block;
+    width: 10.93vw;
+    height: 4.26vw;
+    background-color: #666666;
+    font-size: 3.2vw;
+    color: white;
+    text-align: center;
+    line-height: 4.26vw;
+    border-radius: 2rem;
+}
+.head>div:nth-of-type(1)>div:nth-of-type(2) a p{
+    font-size: 3.2vw;
+    color: #fff;
+}
+.head>div:nth-of-type(2) ul li:nth-of-type(1) a div{
+    width: 5.6vw;
+    height: 5.3vw;
+    border-radius: 50%;
+    border: 1px solid #DADADA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head>div:nth-of-type(2) ul li:nth-of-type(1) a div img{
+    width: 2.93vw;
+}
+.head>div:nth-of-type(2) ul li:nth-of-type(2) a div img{
+    width: 4.8vw;
+}
+.head>div:nth-of-type(2) ul li:nth-of-type(3) a div img{
+    width: 5.33vw;
+}
+.head>div:nth-of-type(2) ul li:nth-of-type(4) a div img{
+    width: 5.33vw;
+}
+.head>div:nth-of-type(2) ul li a p{
+    font-size: 3.2vw;
+    color: #fff;
+}
+main{
+    width: 100vw;
+    /* height: 200vw; */
+    background-color: #fff;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+main h1{
+    font-size: 3.73vw;
+    color: #333;
+    font-weight: normal;
+}
+main .my{
+    padding-top: 6.66vw;
+}
+main .my>div:nth-of-type(1){
+    padding: 0 6.6vw 0 2.66vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .my>div:nth-of-type(2){
+    margin-top: 5.33vw;
+    padding: 0 2.66vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+main .my>div:nth-of-type(2) a>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .my>div:nth-of-type(2) a>div>img{
+    margin-top: 10.67vw;
+}
+main .my>div:nth-of-type(2) a>div>span:nth-of-type(1){
+    margin-top: 2.66vw;
+}
+main .my>div:nth-of-type(2) a>div>span:nth-of-type(2){
+    margin-top: 14.67vw;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(1)>div>p{
+    margin-top: 14.67vw;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(3)>div>p{
+    margin-top: 2.66vw;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(3)>div>img{
+    margin-top: calc(10.67vw - 4vw - 3.2vw);
+}
+main .my>div:nth-of-type(1) a span{
+    color: #333;
+    font-size: 3.2vw;
+}
+main .my>div:nth-of-type(2) a div{
+    width: 30.66vw;
+    height: 48.8vw;
+    border-radius: .5rem;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(1) div{
+    background-image: url(../assetes/image/我的已登录/我喜欢的音乐背景图.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(2) div{
+    background-color: #1b1b1b75;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(3) div{
+    background-color: #aeaeae75;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(1) div>img{
+    width: 11.2vw;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(2) div>img{
+    height: 8.5vw;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(3) div>img{
+    height: 8.5vw;
+}
+main .my>div:nth-of-type(2) a div span:nth-of-type(1){
+    font-size: 3.73vw;
+    color: white;
+}
+main .my>div:nth-of-type(2) a div span:nth-of-type(2){
+    font-size: 3.2vw;
+    color: white;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(1) div p{
+    width: 24vw;
+    height: 5.3vw;
+    border-radius: 3rem;
+    background-color: #00000075;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(1) div p img{
+    transform: rotate(90deg);
+    width: 3.46vw;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(1) div p span{
+    font-size: 3.2vw;
+    color: white;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(3) div>p{
+    font-size: 3.2vw;
+    color: #999;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(3) div span:nth-of-type(1){
+    color: #666;
+}
+main .my>div:nth-of-type(2) a:nth-of-type(3) div span:nth-of-type(2){
+    color: #666;
+}
+
+main .lately{
+    margin-top: 6.66vw;
+    display: flex;
+    flex-direction: column;
+}
+main .lately>div:nth-of-type(1){
+    padding: 0 6.6vw 0 2.66vw;
+    box-sizing: border-box;
+    margin-bottom: 1.33vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .lately ul{
+    margin-left: 2.66vw;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+}
+main .lately ul::-webkit-scrollbar{
+    display: none;
+}
+main .lately ul li a{
+    display: flex;
+}
+main .lately ul li a>div:nth-of-type(2){
+    margin: 1.86vw 2.66vw 0 1.33vw;
+    width: 22.4vw;
+}
+main .lately ul li:nth-of-type(3) a>div:nth-of-type(2){
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main .lately>div:nth-of-type(1) a span{
+    color: #333;
+    font-size: 3.2vw;
+}
+main .lately ul li a>div{
+    position: relative;
+}
+main .lately ul li a>div .bgi{
+    width: 17.86vw;
+    height: 16vw;
+    border-radius: .5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+main .lately ul li:nth-of-type(1) a>div .bgi{
+    background-image: url(../assetes/image/我的已登录/最近播放1.png);
+}
+main .lately ul li:nth-of-type(2) a>div .bgi{
+    background-image: url(../assetes/image/我的已登录/最近播放2.png);
+}
+main .lately ul li:nth-of-type(3) a>div .bgi{
+    background-image: url(../assetes/image/我的已登录/最近播放3.png);
+}
+main .lately ul li a>div .bgc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17.86vw;
+    height: 16vw;
+    border-radius: .5rem;
+    background-color: #00000075;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .lately ul li a>div .bgc div{
+    width: 7.73vw;
+    height: 7.73vw;
+    background-color: #ffffffab;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .lately ul li a>div .bgc div img{
+    transform: rotate(90deg);
+    width: 3.46vw;
+}
+main .lately ul li a>div:nth-of-type(2) span:nth-of-type(1){
+    font-size: 3.2vw;
+    color: #333;
+}
+main .lately ul li a>div:nth-of-type(2) span:nth-of-type(2){
+    font-size: 3.73vw;
+    color: #333;
+}
+main .lately ul li a>div:nth-of-type(2) p:nth-of-type(1){
+    font-size: 3.2vw;
+    color: #333;
+}
+main .lately ul li a>div:nth-of-type(2) p:nth-of-type(2){
+    font-size: 3.2vw;
+    color: #999;
+}
+main .recommend{
+    margin-top: 5.33vw;
+    padding: 0 6.6vw 0 2.66vw;
+}
+main .recommend ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vw;
+}
+main .recommend ul li a{
+    display: flex;
+}
+main .recommend ul li{
+    margin-bottom: 5.33vw;
+}
+main .recommend ul li a>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1.33vw;
+}
+main .recommend ul li:nth-of-type(1) a>div:nth-of-type(1){
+    width: 17.33vw;
+    height: 15.2vw;
+    background-color: #f19736;
+    font-size: 3.46vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .recommend ul li:nth-of-type(2) a>div:nth-of-type(1){
+    width: 17.33vw;
+    height: 15.2vw;
+    background-color: #47b8b3;
+    font-size: 3.46vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .recommend ul li a>div:nth-of-type(1){
+    border-radius: 1rem;
+}
+main .recommend ul li a>div:nth-of-type(1) img{
+    width: 17.33vw;
+}
+main .recommend ul li a>div:nth-of-type(2){
+    width: 22.4vw;
+}
+main .recommend ul li:nth-of-type(3) a>div:nth-of-type(2){
+    width: 26.13vw;
+}
+main .recommend ul li a>div:nth-of-type(2) p:nth-of-type(1){
+    font-size: 3.73vw;
+    color: #333;
+}
+main .recommend ul li a>div:nth-of-type(2) p:nth-of-type(2){
+    font-size: 3.2vw;
+    color: #999;
+}
+
+.load{
+    width: 100vw;
+    height: 28vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23.96vw;
+}
+.load img{
+    width: 5.33vw;
+    vertical-align: middle;
+    margin-right: 2.66vw;
+}
+.load span{
+    vertical-align: middle;
+    font-size: 3.2vw;
+    color: #999;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: visible;
+    width: 100vw;
+    height: 13.3vw;
+    background-color: white;
+    z-index: 10;
+    padding: 2.66vw 0 8vw 0;
+}
+footer .footer-ct{
+    height: 13.3vw;
+    padding: 0 5.3vw;
+    box-sizing: border-box;
+    /* background-color: pink; */
+}
+footer .footer-ct ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-ct ul a{
+    height: 13.3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .footer-ct ul a li{
+    width: 8vw;
+    height: 8vw;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-ct ul a:nth-of-type(3) li{
+    background-color: red;
+}
+footer .footer-ct ul a span{
+    font-size: 3.2vw;
+    color: #333;
+}
+footer .footer-ct ul a:nth-of-type(3) span{
+    color: red;
+}
+footer .footer-ct ul a:first-of-type li img{
+    width: 5.33vw;
+}
+footer .footer-ct ul a:nth-of-type(2) li i{
+    font-size: 5.6vw;
+    color: #515151;
+}
+footer .footer-ct ul a:nth-of-type(3) li img{
+    width: 4.8vw;
+}
+footer .footer-ct ul a:nth-of-type(4) li img{
+    width: 5.33vw;
+}
+footer .footer-ct ul a:nth-of-type(5) li img{
+    width: 4.8vw;
+}

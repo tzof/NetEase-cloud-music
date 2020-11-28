@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2270237",
+      "name": "直播",
+      "font_class": "zhibo",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "2990262",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "6539424",
+      "name": "麦克风",
+      "font_class": "maikefeng",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "10857989",
+      "name": "聊天",
+      "font_class": "tianchongxing-",
+      "unicode": "e544",
+      "unicode_decimal": 58692
+    }
+  ]
+}

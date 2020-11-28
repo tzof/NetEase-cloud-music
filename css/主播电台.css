@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100vw;
+    /* background-color: red; */
+    position: fixed;
+    background-color: #fff;
+    padding: 1.32vw 5.33vw 1.32vw 8vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header span{
+    font-size: 3.7vw;
+    color: black;
+    font-weight: bold;
+}
+header div img{
+    width: 4.8vw;
+    margin-left: 0.4vw;
+}
+header div img:nth-child(3){
+    width: 5.33vw;
+}
+.head{
+    width: 100vw;
+    height: 10.67vw;
+    background-color: #fff;
+    position: fixed;
+    top: 7.74vw;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.66vw 0 8vw;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.head>div:first-of-type a img{
+    width: 3.46vw;
+}
+.head>div:nth-child(2) span{
+    font-size: 4.26vw;
+    color: #333;
+}
+.head>div:nth-child(3) a img{
+    width: 8vw;
+}
+main{
+    padding: 0 4vw 0 6.66vw;
+    margin-top: 20.53vw;
+}
+main h1{
+    font-size: 4.26vw;
+    color: #333;
+    font-weight: normal;
+}
+main ul li{
+    width: 25.6vw;
+}
+main ul li a img{
+    width: 25.6vw;
+}
+main ul li a p{
+    font-size: 3.2vw;
+    color: #333;
+    padding: 1.33vw 1vw 0 1.33vw;
+}
+main ul{
+    margin-top: 5.33vw;
+    display: flex;
+    justify-content: space-between;
+}
+main .tv{
+    margin-top: 6.66vw;
+}
+main .tv ul:nth-of-type(2){
+    margin-top: 1.33vw;
+}
+main .new{
+    margin-top: 6.66vw;
+}
+main .new .new-top{
+    display: flex;
+    justify-content: space-between;
+}
+main .new .new-top div{
+    width: 22.93vw;
+    height: 5.6vw;
+    border-radius: 3rem;
+    border: .1rem solid #666;
+    text-align: center;
+    line-height: 5.6vw;
+    margin-right: 1.33vw;
+}
+main .new .new-top div a span{
+    font-size: 3.2vw;
+    color: #666;
+}
+main .new .new-ct{
+    margin-bottom: 9.33vw;
+}
+main .new-box{
+    margin-top: 5.33vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .new-box>div:nth-of-type(1){
+    display: flex;
+}
+main .new-box>div:nth-of-type(1)>div{
+    padding: 2.66vw 0;
+    margin-left: 2.66vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main .new-box>div:nth-of-type(1)>div>div{
+    height: 5.33vw;
+    display: flex;
+    align-items: center;
+}
+main .new-box>div:nth-of-type(1)>div>div>div a{
+    height: 5.33vw;
+    display: flex;
+    align-items: center;
+}
+main .new-box>div:nth-of-type(1)>div>div>div:nth-of-type(1){
+    margin-right: 10.66vw;
+}
+main .new-box:nth-of-type(2)>div:nth-of-type(1)>div>div>div:nth-of-type(1){
+    margin-right: 5.6vw;
+}
+main .new-box:nth-of-type(3)>div:nth-of-type(1)>div>div>div:nth-of-type(1){
+    margin-right: 12vw;
+}
+main .new-box:nth-of-type(4)>div:nth-of-type(1)>div>div>div:nth-of-type(1){
+    margin-right: 14.66vw;
+}
+main .new-box:nth-of-type(5)>div:nth-of-type(1)>div>div>div:nth-of-type(1){
+    margin-right: 13.33vw;
+}
+main .new-box>div:nth-of-type(1)>div>div>div a img{
+    margin-right: 2.66vw;
+}
+main .new-box>div:nth-of-type(1)>a img{
+    width: 18.66vw;
+}
+main .new-box>div:nth-of-type(1)>div>p a{
+    font-size: 4.26vw;
+    color: #333;
+}
+main .new-box>div:nth-of-type(1)>div>div>div:nth-of-type(1) a img{
+    width: 5.33vw;
+}
+main .new-box>div:nth-of-type(1)>div>div>div:nth-of-type(1) a span{
+    font-size: 3.2vw;
+    color: #999;
+}
+main .new-box>div:nth-of-type(1)>div>div>div:nth-of-type(2) a img{
+    width: 3.46vw;
+}
+main .new-box>div:nth-of-type(1)>div>div>div:nth-of-type(2) a span{
+    font-size: 3.2vw;
+    color: #999;
+}
+main .new-box>div:nth-of-type(2) a div{
+    width: 8.8vw;
+    height: 8.8vw;
+    border-radius: 50%;
+    border: .1rem solid #E0E0E0;
+    text-align: center;
+}
+main .new-box>div:nth-of-type(2) a div img{
+    transform: rotate(90deg);
+    width: 5.06vw;
+    position: relative;
+    top: 2.4vw;
+}

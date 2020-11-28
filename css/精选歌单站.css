@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100vw;
+    /* background-color: red; */
+    position: fixed;
+    background-color: #fff;
+    padding: 1.32vw 5.33vw 1.32vw 8vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header span{
+    font-size: 3.7vw;
+    color: black;
+    font-weight: bold;
+}
+header div img{
+    width: 4.8vw;
+    margin-left: 0.4vw;
+}
+header div img:nth-child(3){
+    width: 5.33vw;
+}
+.head{
+    width: 100vw;
+    height: 10.67vw;
+    background-color: white;
+    position: fixed;
+    top: 7.74vw;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.66vw 0 8vw;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.head>div:first-of-type a img{
+    width: 3.46vw;
+}
+.head>div:nth-child(2) span{
+    font-size: 4.26vw;
+    color: #333;
+}
+.head>div:nth-child(3) a img{
+    width: 8vw;
+}
+main .main-bottom{
+    margin-top: 18.6vw;
+    padding: 0 4vw 0 5.33vw;
+}
+main .main-bottom ul{
+    display: flex;
+    justify-content: space-between;
+}
+main .main-bottom ul li{
+    width: 26.66vw;
+}
+main .main-bottom ul li a img{
+    width: 26.4vw;
+}
+main .main-bottom ul li a p{
+    /* text-align: center; */
+    font-size: 3.2vw;
+    color: #333;
+    padding: 2.66vw 0 1.33vw 1vw;
+}
